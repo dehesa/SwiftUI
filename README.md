@@ -15,4 +15,8 @@ This repo contains code with examples on how to use Apple's SwiftUI. Some sample
     -   [View preferences (regular)](https://swiftui-lab.com/communicating-with-the-view-tree-part-1) discuss what SwiftUI view preferences are and how to use them.
     -   [View preferences (anchored)](https://swiftui-lab.com/communicating-with-the-view-tree-part-2) discuss what the _anchor preferences_ are and how to use them.
     -   [View preferences (nested views)](https://swiftui-lab.com/communicating-with-the-view-tree-part-3) provides an example of a complex view using view preferences.
-    -   [ScrollView (pull to refresh)](https://swiftui-lab.com/scrollview-pull-to-refresh) provides an implementation of pull-to-refresh not yet included in standard SwiftUI.  
+    -   [ScrollView (pull to refresh)](https://swiftui-lab.com/scrollview-pull-to-refresh) provides an implementation of pull-to-refresh not yet included in standard SwiftUI.
+    -   [Alignment (hello world)](https://swiftui-lab.com/alignment-guides) introduces alignment guides.
+    -   [Alignment (musketeers)](https://swiftui-lab.com/alignment-guides) visualizes how alignment guides are _ignored_ by its container parent.
+    -   [Alignment (tool)](https://swiftui-lab.com/alignment-guides) lets you play with alignment guides.
+        This is a fantastic tool and [Javier](https://twitter.com/SwiftUILab) deserves huge props for making this open source and discover undocumented functionality. Hats off to you, sir! 

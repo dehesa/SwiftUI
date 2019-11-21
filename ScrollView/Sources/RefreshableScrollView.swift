@@ -1,5 +1,5 @@
 // Example reworked from the great SwiftUI Lab.
-// Full article: https://swiftui-lab.com/scrollview-pull-to-refresh/
+// Full article: https://swiftui-lab.com/scrollview-pull-to-refresh
 import SwiftUI
 
 struct RefreshableScrollView<Content:View>: View {

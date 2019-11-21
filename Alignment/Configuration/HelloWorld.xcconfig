@@ -1,0 +1,12 @@
+// Versioning
+CURRENT_PROJECT_VERSION = 1
+DYLIB_CURRENT_VERSION = 0.1.0
+DYLIB_COMPATIBILITY_VERSION = $(DYLIB_CURRENT_VERSION)
+
+// Packaging
+PRODUCT_NAME = Hello Alignment
+PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.swiftui.alignment.helloworld
+INFOPLIST_FILE = $(PROJECT_DIR)/Configuration/Common.plist
+
+// Deployment
+DEVELOPMENT_ASSET_PATHS = Assets
