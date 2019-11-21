@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DFC274123868D800004F671"
-               BuildableName = "Nested.app"
+               BuildableName = "Simple Preferences.app"
                BlueprintName = "Nested"
                ReferencedContainer = "container:Preferences.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DFC274123868D800004F671"
-            BuildableName = "Nested.app"
+            BuildableName = "Simple Preferences.app"
             BlueprintName = "Nested"
             ReferencedContainer = "container:Preferences.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DFC274123868D800004F671"
-            BuildableName = "Nested.app"
+            BuildableName = "Simple Preferences.app"
             BlueprintName = "Nested"
             ReferencedContainer = "container:Preferences.xcodeproj">
          </BuildableReference>

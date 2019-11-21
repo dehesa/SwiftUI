@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DFC272923868D6E0004F671"
-               BuildableName = "Anchor Preferences.app"
-               BlueprintName = "Anchor"
-               ReferencedContainer = "container:Preferences.xcodeproj">
+               BlueprintIdentifier = "8DAC5A8023869D2000FBDD50"
+               BuildableName = "Pull to refresh.app"
+               BlueprintName = "Pull"
+               ReferencedContainer = "container:ScrollView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DFC272923868D6E0004F671"
-            BuildableName = "Anchor Preferences.app"
-            BlueprintName = "Anchor"
-            ReferencedContainer = "container:Preferences.xcodeproj">
+            BlueprintIdentifier = "8DAC5A8023869D2000FBDD50"
+            BuildableName = "Pull to refresh.app"
+            BlueprintName = "Pull"
+            ReferencedContainer = "container:ScrollView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DFC272923868D6E0004F671"
-            BuildableName = "Anchor Preferences.app"
-            BlueprintName = "Anchor"
-            ReferencedContainer = "container:Preferences.xcodeproj">
+            BlueprintIdentifier = "8DAC5A8023869D2000FBDD50"
+            BuildableName = "Pull to refresh.app"
+            BlueprintName = "Pull"
+            ReferencedContainer = "container:ScrollView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
