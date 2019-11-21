@@ -1,0 +1,15 @@
+// Swift
+SWIFT_VERSION = 5.1
+
+// Deployment
+MACOSX_DEPLOYMENT_TARGET = 10.15
+TVOS_DEPLOYMENT_TARGET = 13.2
+IPHONEOS_DEPLOYMENT_TARGET = 13.2
+WATCHOS_DEPLOYMENT_TARGET = 6.1
+
+// Packaging
+INFOPLIST_FILE = $(PROJECT_DIR)/Configuration/Common.plist
+
+// Code Signing
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_ENTITLEMENTS = Configuration/Common.entitlements

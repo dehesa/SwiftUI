@@ -1,0 +1,11 @@
+// Versioning
+CURRENT_PROJECT_VERSION = 1
+DYLIB_CURRENT_VERSION = 0.1.0
+DYLIB_COMPATIBILITY_VERSION = $(DYLIB_CURRENT_VERSION)
+
+// Packaging
+PRODUCT_NAME = Regular Preferences
+PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.swiftui.preferences.regular
+
+// Deployment
+DEVELOPMENT_ASSET_PATHS = Assets
