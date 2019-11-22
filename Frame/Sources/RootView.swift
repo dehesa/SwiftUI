@@ -1,5 +1,5 @@
 // Example reworked from the great SwiftUI Lab.
-// Full article: https://swiftui-lab.com/frame-behaviors/
+// Full article: https://swiftui-lab.com/frame-behaviors
 import SwiftUI
 
 struct RootView: View {

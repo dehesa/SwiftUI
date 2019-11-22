@@ -16,4 +16,7 @@
    <FileRef
       location = "group:Frame/Frame.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:State/State.xcodeproj">
+   </FileRef>
 </Workspace>
