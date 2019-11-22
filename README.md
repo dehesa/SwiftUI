@@ -19,4 +19,5 @@ This repo contains code with examples on how to use Apple's SwiftUI. Some sample
     -   [Alignment (tool)](https://swiftui-lab.com/alignment-guides) lets you play with alignment guides.<br>
         This is a fantastic tool and [Javier](https://twitter.com/SwiftUILab) deserves huge props for making this open source and discover undocumented functionality. Hats off to you, sir!
     -   [Frame (little squares)](https://swiftui-lab.com/frame-behaviors) reviews the `frame()` and `fixedSize()` modifiers.
+    -   [Styling (triple toggle)](https://swiftui-lab.com/custom-styling) provides example on how to use and create custom control styles.
     -   [State (arrow)](https://swiftui-lab.com/state-changes) discuss the perils of mutating state within a SwiftUI view body and the CPU usage. 
