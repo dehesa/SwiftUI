@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-               BuildableName = "Tool.app"
+               BuildableName = "Alignment Tool.app"
                BlueprintName = "Tool"
                ReferencedContainer = "container:Alignment.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-            BuildableName = "Tool.app"
+            BuildableName = "Alignment Tool.app"
             BlueprintName = "Tool"
             ReferencedContainer = "container:Alignment.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-            BuildableName = "Tool.app"
+            BuildableName = "Alignment Tool.app"
             BlueprintName = "Tool"
             ReferencedContainer = "container:Alignment.xcodeproj">
          </BuildableReference>

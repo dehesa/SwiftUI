@@ -19,4 +19,7 @@ This repo contains code with examples on how to use Apple's SwiftUI. Some sample
     -   [Alignment (hello world)](https://swiftui-lab.com/alignment-guides) introduces alignment guides.
     -   [Alignment (musketeers)](https://swiftui-lab.com/alignment-guides) visualizes how alignment guides are _ignored_ by its container parent.
     -   [Alignment (tool)](https://swiftui-lab.com/alignment-guides) lets you play with alignment guides.
-        This is a fantastic tool and [Javier](https://twitter.com/SwiftUILab) deserves huge props for making this open source and discover undocumented functionality. Hats off to you, sir! 
+
+        This is a fantastic tool and [Javier](https://twitter.com/SwiftUILab) deserves huge props for making this open source and discover undocumented functionality. Hats off to you, sir!
+
+    -   [Frame (little squares)](https://swiftui-lab.com/frame-behaviors) reviews the `frame()` and `fixedSize()` modifiers.

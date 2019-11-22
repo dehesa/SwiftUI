@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DC816822386F6260081734D"
-               BuildableName = "Musketeers.app"
+               BuildableName = "Alignment Musketeers.app"
                BlueprintName = "Musketeers"
                ReferencedContainer = "container:Alignment.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DC816822386F6260081734D"
-            BuildableName = "Musketeers.app"
+            BuildableName = "Alignment Musketeers.app"
             BlueprintName = "Musketeers"
             ReferencedContainer = "container:Alignment.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DC816822386F6260081734D"
-            BuildableName = "Musketeers.app"
+            BuildableName = "Alignment Musketeers.app"
             BlueprintName = "Musketeers"
             ReferencedContainer = "container:Alignment.xcodeproj">
          </BuildableReference>

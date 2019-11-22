@@ -13,4 +13,7 @@
    <FileRef
       location = "group:Alignment/Alignment.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Frame/Frame.xcodeproj">
+   </FileRef>
 </Workspace>
