@@ -8,6 +8,9 @@
       location = "group:Paul Hudson"
       name = "Paul Hudson">
       <FileRef
+         location = "group:/Users/marcos/Workspace/Github/Public/SwiftUI/Paul Hudson/Dad Jokes/DadJokes.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:iDine/iDine.xcodeproj">
       </FileRef>
    </Group>

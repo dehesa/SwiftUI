@@ -24,3 +24,4 @@ This repo contains code with examples on how to use Apple's SwiftUI. Some sample
 - [Paul Hudson](https://www.hackingwithswift.com) projects.<br>
   [Paul](https://twitter.com/twostraws) is one of the best Swift teachers/educators out there. Through his website and [youtube channel](https://www.youtube.com/channel/UCmJi5RdDLgzvkl3Ly0DRMlQ) he offers a very comprehensive path to learn any Apple related technology.
     -   [Starter project](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project) builds a comple SwiftUI project.
+    -   [Dad jokes](https://github.com/twostraws/SwiftOnSundays) builds a SwiftUI project for iOS and macOS.
