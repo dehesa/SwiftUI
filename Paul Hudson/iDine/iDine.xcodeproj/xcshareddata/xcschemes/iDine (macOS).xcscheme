@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-               BuildableName = "Alignment Tool.app"
-               BlueprintName = "Tool"
-               ReferencedContainer = "container:Alignment.xcodeproj">
+               BlueprintIdentifier = "8D28AA9625E818F40050109E"
+               BuildableName = "iDine.app"
+               BlueprintName = "iDine (macOS)"
+               ReferencedContainer = "container:iDine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-            BuildableName = "Alignment Tool.app"
-            BlueprintName = "Tool"
-            ReferencedContainer = "container:Alignment.xcodeproj">
+            BlueprintIdentifier = "8D28AA9625E818F40050109E"
+            BuildableName = "iDine.app"
+            BlueprintName = "iDine (macOS)"
+            ReferencedContainer = "container:iDine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DC8169A2386F62F0081734D"
-            BuildableName = "Alignment Tool.app"
-            BlueprintName = "Tool"
-            ReferencedContainer = "container:Alignment.xcodeproj">
+            BlueprintIdentifier = "8D28AA9625E818F40050109E"
+            BuildableName = "iDine.app"
+            BlueprintName = "iDine (macOS)"
+            ReferencedContainer = "container:iDine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

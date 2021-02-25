@@ -7,17 +7,15 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
-            MenuView()
-                .tabItem {
-                    Image(systemName: "list.dash")
-                    Text("Menu")
-                }
+            MenuView().tabItem {
+                Image(systemName: "list.dash")
+                Text("Menu")
+            }
             
-            OrderView()
-                .tabItem {
-                    Image(systemName: "square.and.pencil")
-                    Text("Order")
-                }
+            OrderView().tabItem {
+                Image(systemName: "square.and.pencil")
+                Text("Order")
+            }
         }
     }
 }

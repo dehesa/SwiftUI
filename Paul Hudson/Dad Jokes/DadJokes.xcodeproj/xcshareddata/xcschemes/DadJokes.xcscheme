@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1120"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DA50D3F23891E3800806C2B"
-               BuildableName = "iDine.app"
-               BlueprintName = "iDine"
-               ReferencedContainer = "container:iDine.xcodeproj">
+               BlueprintIdentifier = "8DC72DE9238B3A58008F53A4"
+               BuildableName = "DadJokes.app"
+               BlueprintName = "DadJokes"
+               ReferencedContainer = "container:DadJokes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DA50D3F23891E3800806C2B"
-            BuildableName = "iDine.app"
-            BlueprintName = "iDine"
-            ReferencedContainer = "container:iDine.xcodeproj">
+            BlueprintIdentifier = "8DC72DE9238B3A58008F53A4"
+            BuildableName = "DadJokes.app"
+            BlueprintName = "DadJokes"
+            ReferencedContainer = "container:DadJokes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DA50D3F23891E3800806C2B"
-            BuildableName = "iDine.app"
-            BlueprintName = "iDine"
-            ReferencedContainer = "container:iDine.xcodeproj">
+            BlueprintIdentifier = "8DC72DE9238B3A58008F53A4"
+            BuildableName = "DadJokes.app"
+            BlueprintName = "DadJokes"
+            ReferencedContainer = "container:DadJokes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
