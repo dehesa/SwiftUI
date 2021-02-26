@@ -1,9 +1,11 @@
 import Foundation
 import CoreData
 
+@objc(Joke) public class Joke: NSManagedObject {}
+
 extension Joke {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Joke> {
-        return NSFetchRequest<Joke>(entityName: "Joke")
+        NSFetchRequest<Joke>(entityName: "Joke")
     }
 
     @NSManaged public var setup: String
