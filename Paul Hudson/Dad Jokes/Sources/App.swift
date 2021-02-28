@@ -11,7 +11,7 @@ import SwiftUI
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
                 .environment(\.managedObjectContext, self.services.persistentContainer.viewContext)
                 .onChange(of: self.scenePhase) {
                     guard case .background = $0 else { return }

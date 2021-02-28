@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// Displays an emoji depending on the rating text.
 struct EmojiView: View {
     var rating: String
     
