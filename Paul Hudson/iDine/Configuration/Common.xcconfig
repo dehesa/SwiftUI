@@ -9,4 +9,3 @@ WATCHOS_DEPLOYMENT_TARGET = 7.2
 
 // Code Signing
 CODE_SIGN_STYLE = Automatic
-CODE_SIGN_ENTITLEMENTS = Configuration/Common.entitlements

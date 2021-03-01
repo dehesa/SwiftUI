@@ -23,10 +23,13 @@
 
 /* Begin PBXFileReference section */
 		8D28AA9025E818F40050109E /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D28AA9225E818F40050109E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D28AA9225E818F40050109E /* iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOS.plist; sourceTree = "<group>"; };
 		8D28AA9725E818F40050109E /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D28AA9925E818F40050109E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D28AA9925E818F40050109E /* macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = macOS.plist; sourceTree = "<group>"; };
 		8D28AA9A25E818F40050109E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8D68FD6426012FFA0065A89A /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		8D68FD672601302F0065A89A /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		8D68FD682601303A0065A89A /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
 		8DA50D4523891E3800806C2B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		8DA50D4723891E3800806C2B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8DA50D4923891E3900806C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets/Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +74,7 @@
 			path = Content;
 			sourceTree = "<group>";
 		};
-		8D28AA8825E818F40050109E /* Shared */ = {
+		8D28AA8825E818F40050109E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				8DA50D4523891E3800806C2B /* App.swift */,
@@ -80,32 +83,27 @@
 				8DA50D6123891FCB00806C2B /* Helpers */,
 				8DA50D4923891E3900806C2B /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		8D28AA9125E818F40050109E /* iOS */ = {
+		8D28AA9125E818F40050109E /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				8D28AA9225E818F40050109E /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		8D28AA9825E818F40050109E /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				8D28AA9925E818F40050109E /* Info.plist */,
+				8D68FD6426012FFA0065A89A /* Common.xcconfig */,
+				8D68FD672601302F0065A89A /* iOS.xcconfig */,
+				8D28AA9225E818F40050109E /* iOS.plist */,
+				8D68FD682601303A0065A89A /* macOS.xcconfig */,
+				8D28AA9925E818F40050109E /* macOS.plist */,
 				8D28AA9A25E818F40050109E /* macOS.entitlements */,
 			);
-			path = macOS;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		8DA50D3723891E3800806C2B = {
 			isa = PBXGroup;
 			children = (
-				8D28AA8825E818F40050109E /* Shared */,
-				8D28AA9125E818F40050109E /* iOS */,
-				8D28AA9825E818F40050109E /* macOS */,
+				8D28AA9125E818F40050109E /* Configuration */,
+				8D28AA8825E818F40050109E /* Sources */,
 				8DA50D4123891E3800806C2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -253,44 +251,36 @@
 /* Begin XCBuildConfiguration section */
 		8D28AAA225E818F40050109E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD672601302F0065A89A /* iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.iDine;
-				PRODUCT_NAME = iDine;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8D28AAA325E818F40050109E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD672601302F0065A89A /* iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.iDine;
-				PRODUCT_NAME = iDine;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -298,54 +288,45 @@
 		};
 		8D28AAA525E818F40050109E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD682601303A0065A89A /* macOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.iDine;
-				PRODUCT_NAME = iDine;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		8D28AAA625E818F40050109E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD682601303A0065A89A /* macOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.dehesa.iDine;
-				PRODUCT_NAME = iDine;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		8DA50D5223891E3900806C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD6426012FFA0065A89A /* Common.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -395,7 +376,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,6 +387,7 @@
 		};
 		8DA50D5323891E3900806C2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FD6426012FFA0065A89A /* Common.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -450,7 +431,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
