@@ -36,4 +36,11 @@
          location = "group:Stye/Stye.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:LBTA"
+      name = "LBTA">
+      <FileRef
+         location = "group:TabBar/TabBar.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
