@@ -42,5 +42,8 @@
       <FileRef
          location = "group:TabBar/TabBar.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Carousel/Carousel.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

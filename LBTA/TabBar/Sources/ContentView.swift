@@ -1,3 +1,6 @@
+/// - author: Brian Voong
+/// - seealso: https://www.letsbuildthatapp.com
+/// - seealso: https://www.youtube.com/watch?v=9lVLFlyaiq4
 import SwiftUI
 
 /// The main entrance to the application
