@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8DB2EB7A26050C9900F7D954 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2EB7926050C9900F7D954 /* App.swift */; };
-		8DB2EB7C26050C9900F7D954 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2EB7B26050C9900F7D954 /* ContentView.swift */; };
+		8DB2EB7C26050C9900F7D954 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2EB7B26050C9900F7D954 /* RootView.swift */; };
 		8DB2EB7E26050C9A00F7D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2EB7D26050C9A00F7D954 /* Assets.xcassets */; };
+		8DE088E22618CDEB00E4CCE7 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE088E12618CDEB00E4CCE7 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DB2EB7626050C9900F7D954 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB2EB7926050C9900F7D954 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		8DB2EB7B26050C9900F7D954 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DB2EB7B26050C9900F7D954 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8DB2EB7D26050C9A00F7D954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB2EB8226050C9A00F7D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE088E12618CDEB00E4CCE7 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,19 +33,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D8DED83260514A90000552F /* Assets */ = {
+		8D8418072618D2A100AB16BC /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				8DB2EB7D26050C9A00F7D954 /* Assets.xcassets */,
+				8DB2EB8226050C9A00F7D954 /* Info.plist */,
 			);
-			path = Assets;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		8DB2EB6D26050C9900F7D954 = {
 			isa = PBXGroup;
 			children = (
-				8DB2EB8226050C9A00F7D954 /* Info.plist */,
-				8D8DED83260514A90000552F /* Assets */,
+				8D8418072618D2A100AB16BC /* Configuration */,
 				8DB2EB7826050C9900F7D954 /* Sources */,
 				8DB2EB7726050C9900F7D954 /* Products */,
 			);
@@ -61,7 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				8DB2EB7926050C9900F7D954 /* App.swift */,
-				8DB2EB7B26050C9900F7D954 /* ContentView.swift */,
+				8DB2EB7B26050C9900F7D954 /* RootView.swift */,
+				8DE088E12618CDEB00E4CCE7 /* CustomTabView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -134,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB2EB7C26050C9900F7D954 /* ContentView.swift in Sources */,
+				8DE088E22618CDEB00E4CCE7 /* CustomTabView.swift in Sources */,
+				8DB2EB7C26050C9900F7D954 /* RootView.swift in Sources */,
 				8DB2EB7A26050C9900F7D954 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +271,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,7 +293,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
