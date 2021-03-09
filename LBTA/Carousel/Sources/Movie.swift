@@ -1,3 +1,6 @@
+/// - author: Brian Voong
+/// - seealso: https://www.letsbuildthatapp.com
+/// - seealso: https://www.youtube.com/watch?v=euGLqwOEpZE
 import Foundation
 
 /// Representation of a movie within the data model.

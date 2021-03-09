@@ -11,6 +11,7 @@
 		8D17547B260518D60068A8CF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D17547A260518D60068A8CF /* RootView.swift */; };
 		8D17548F26051B7E0068A8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D17548E26051B7E0068A8CF /* Assets.xcassets */; };
 		8D17549426051EF00068A8CF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D17549326051EF00068A8CF /* Movie.swift */; };
+		8D664B212618DB630098BA1B /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D664B202618DB630098BA1B /* Carousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		8D175481260518D70068A8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D17548E26051B7E0068A8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D17549326051EF00068A8CF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8D664B202618DB630098BA1B /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,8 +38,7 @@
 		8D17546C260518D60068A8CF = {
 			isa = PBXGroup;
 			children = (
-				8D175481260518D70068A8CF /* Info.plist */,
-				8D17548A260519480068A8CF /* Assets */,
+				8D17548A260519480068A8CF /* Configuration */,
 				8D175477260518D60068A8CF /* Sources */,
 				8D175476260518D60068A8CF /* Products */,
 			);
@@ -56,17 +57,19 @@
 			children = (
 				8D175478260518D60068A8CF /* App.swift */,
 				8D17547A260518D60068A8CF /* RootView.swift */,
+				8D664B202618DB630098BA1B /* Carousel.swift */,
 				8D17549326051EF00068A8CF /* Movie.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		8D17548A260519480068A8CF /* Assets */ = {
+		8D17548A260519480068A8CF /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				8D175481260518D70068A8CF /* Info.plist */,
 				8D17548E26051B7E0068A8CF /* Assets.xcassets */,
 			);
-			path = Assets;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +143,7 @@
 				8D17547B260518D60068A8CF /* RootView.swift in Sources */,
 				8D175479260518D60068A8CF /* App.swift in Sources */,
 				8D17549426051EF00068A8CF /* Movie.swift in Sources */,
+				8D664B212618DB630098BA1B /* Carousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +297,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = V4LZL56CA7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

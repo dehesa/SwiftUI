@@ -36,8 +36,8 @@
 		8D8418072618D2A100AB16BC /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				8DB2EB7D26050C9A00F7D954 /* Assets.xcassets */,
 				8DB2EB8226050C9A00F7D954 /* Info.plist */,
+				8DB2EB7D26050C9A00F7D954 /* Assets.xcassets */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
