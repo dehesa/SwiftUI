@@ -3,7 +3,7 @@ import SwiftUI
 struct RootView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(entity: Joke.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Joke.setup, ascending: true)]) var jokes: FetchedResults<Joke>
-    @State private var showingAddJoke = false
+    @State private var isShowingAddModal = false
     
     var body: some View {
         NavigationView {
@@ -14,8 +14,12 @@ struct RootView: View {
                         Text(joke.setup)
                     }
                 }.onDelete(perform: self.removeJokes)
-            }.navigationBarItems(leading: EditButton(), trailing: Button("Add") { self.showingAddJoke.toggle() })
-            .sheet(isPresented: self.$showingAddJoke) { AddView().environment(\.managedObjectContext, self.moc) }
+            }.toolbar {
+                ToolbarItem(placement: .navigationBarLeading) { EditButton() }
+                ToolbarItem(placement: .navigationBarTrailing) { Button("Add") { self.isShowingAddModal.toggle() } }
+            }.sheet(isPresented: self.$isShowingAddModal) {
+                AddView().environment(\.managedObjectContext, self.moc)
+            }
         }
     }
 }
@@ -25,9 +29,9 @@ extension RootView {
     /// - parameter offsets: The joke position within the table/database.
     private func removeJokes(at offsets: IndexSet) {
         for index in offsets {
-            let joke = jokes[index]
-            moc.delete(joke)
+            let joke = self.jokes[index]
+            self.moc.delete(joke)
         }
-        try? moc.save()
+        try? self.moc.save()
     }
 }

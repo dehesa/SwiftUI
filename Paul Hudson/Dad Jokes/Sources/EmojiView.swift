@@ -9,7 +9,7 @@ struct EmojiView: View {
     }
     
     var body: some View {
-        switch rating {
+        switch self.rating {
         case "Sob": return Text("😭")
         case "Sigh": return Text("😔")
         case "Smirk": return Text("😏")
