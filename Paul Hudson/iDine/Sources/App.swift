@@ -4,12 +4,12 @@
 // Twitter: https://twitter.com/twostraws
 import SwiftUI
 
-@main struct iDineApp: App {
+@main struct Application: App {
     var order = Order()
     
     var body: some Scene {
         WindowGroup {
-            AppView().environmentObject(self.order)
+            RootView().environmentObject(self.order)
         }
     }
 }

@@ -4,7 +4,7 @@
 // Twitter: https://twitter.com/twostraws
 import SwiftUI
 
-class Order: ObservableObject {
+final class Order: ObservableObject {
     @Published var items = [MenuItem]()
 
     var total: Int {

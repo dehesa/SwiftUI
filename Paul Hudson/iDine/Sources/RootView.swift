@@ -4,7 +4,7 @@
 // Twitter: https://twitter.com/twostraws
 import SwiftUI
 
-struct AppView: View {
+struct RootView: View {
     var body: some View {
         TabView {
             MenuView().tabItem {
@@ -21,10 +21,10 @@ struct AppView: View {
 }
 
 struct AppView_Previews: PreviewProvider {
-    static let order = Order()
+    private static let order = Order()
     
     static var previews: some View {
-        AppView()
+        RootView()
             .environmentObject(self.order)
     }
 }

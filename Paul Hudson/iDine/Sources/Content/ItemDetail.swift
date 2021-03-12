@@ -11,15 +11,15 @@ struct ItemDetail: View {
     var body: some View {
         VStack {
             ZStack(alignment: .bottomTrailing) {
-                Image(item.mainImage)
-                Text("Photo: \(item.photoCredit)")
+                Image(self.item.mainImage)
+                Text("Photo: \(self.item.photoCredit)")
                     .padding(4)
                     .background(Color.black)
                     .font(.caption)
                     .foregroundColor(.white)
                     .offset(x: -5, y: -5)
             }
-            Text(item.description)
+            Text(self.item.description)
                 .padding()
             
             Button("Order This") {
@@ -27,7 +27,7 @@ struct ItemDetail: View {
             }.font(.headline)
             
             Spacer()
-        }.navigationBarTitle(Text(item.name), displayMode: .inline)
+        }.navigationBarTitle(Text(self.item.name), displayMode: .inline)
     }
 }
 
