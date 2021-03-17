@@ -3,7 +3,7 @@
 // Twitter: https://twitter.com/SwiftUILab
 import SwiftUI
 
-struct ExampleView: View {
+struct RootView: View {
     @ObservedObject var model = Model()
     @State private var alternate: Bool = true
     
@@ -20,7 +20,7 @@ struct ExampleView: View {
     }
 }
 
-private extension ExampleView {
+private extension RootView {
     struct HeaderView: View {
         var title = ""
         
@@ -61,9 +61,9 @@ private extension ExampleView {
 
 // MARK: -
 
-struct ExampleView_Previews: PreviewProvider {
+struct RootView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleView()
+        RootView()
     }
 }
 
