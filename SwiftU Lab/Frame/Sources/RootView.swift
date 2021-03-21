@@ -38,7 +38,8 @@ private extension RootView {
             GeometryReader { proxy in
                 HStack(spacing: 5) {
                     ForEach(0..<self.maxSquares(proxy), id: \.self) { _ in
-                        RoundedRectangle(cornerRadius: 5).frame(width: self.sqSize, height: self.sqSize)
+                        RoundedRectangle(cornerRadius: 5)
+                            .frame(width: self.sqSize, height: self.sqSize)
                             .foregroundColor(self.allFit(proxy) ? .green : .red)
                     }
                 }
@@ -49,10 +50,10 @@ private extension RootView {
 
 extension RootView.LittleSquares {
     private func maxSquares(_ proxy: GeometryProxy) -> Int {
-        return min(Int(proxy.size.width / (sqSize + 5)), total)
+        return min(Int(proxy.size.width / (self.sqSize + 5)), self.total)
     }
     
     private func allFit(_ proxy: GeometryProxy) -> Bool {
-        return maxSquares(proxy) == total
+        return self.maxSquares(proxy) == self.total
     }
 }
