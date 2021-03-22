@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D4AD45723881794009D27BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AD45623881794009D27BC /* AppDelegate.swift */; };
-		8D4AD45923881794009D27BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AD45823881794009D27BC /* SceneDelegate.swift */; };
+		8D4AD45723881794009D27BC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AD45623881794009D27BC /* App.swift */; };
 		8D4AD45B23881794009D27BC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AD45A23881794009D27BC /* RootView.swift */; };
 		8D4AD45D23881795009D27BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AD45C23881795009D27BC /* Assets.xcassets */; };
 		8D4AD46023881795009D27BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AD45F23881795009D27BC /* Preview Assets.xcassets */; };
@@ -23,8 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8D4AD45323881794009D27BC /* Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Style.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D4AD45623881794009D27BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4AD45823881794009D27BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D4AD45623881794009D27BC /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		8D4AD45A23881794009D27BC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8D4AD45C23881795009D27BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4AD45F23881795009D27BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -73,8 +71,7 @@
 		8D4AD45523881794009D27BC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8D4AD45623881794009D27BC /* AppDelegate.swift */,
-				8D4AD45823881794009D27BC /* SceneDelegate.swift */,
+				8D4AD45623881794009D27BC /* App.swift */,
 				8D4AD45A23881794009D27BC /* RootView.swift */,
 				8D4AD470238818CA009D27BC /* SimpleButtonStyle.swift */,
 				8D4AD47223881A41009D27BC /* CustomButtonStyle.swift */,
@@ -190,9 +187,8 @@
 				8D4AD47323881A41009D27BC /* CustomButtonStyle.swift in Sources */,
 				8D4AD471238818CA009D27BC /* SimpleButtonStyle.swift in Sources */,
 				8D4AD47523882337009D27BC /* CustomToggleStyle.swift in Sources */,
-				8D4AD45723881794009D27BC /* AppDelegate.swift in Sources */,
+				8D4AD45723881794009D27BC /* App.swift in Sources */,
 				8D4AD47723882964009D27BC /* StyleProtocol.swift in Sources */,
-				8D4AD45923881794009D27BC /* SceneDelegate.swift in Sources */,
 				8D4AD47A23882A29009D27BC /* TripleToggleView.swift in Sources */,
 				8D4AD45B23881794009D27BC /* RootView.swift in Sources */,
 			);
@@ -264,7 +260,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -320,7 +315,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

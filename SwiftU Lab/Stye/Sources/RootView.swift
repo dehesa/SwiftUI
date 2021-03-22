@@ -8,7 +8,7 @@ struct RootView: View {
     @State private var tripleState: TripleToggleView.State = .med
     
     var body: some View {
-        VStack.init(spacing: 20) {
+        VStack(spacing: 20) {
             Button("Tap Me!") { print("button pressed!") }
                 .buttonStyle(SimpleButtonStyle(color: .blue))
             
